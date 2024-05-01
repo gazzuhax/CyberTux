@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="description" content="Mitigate Cyber Attacks">
+	  <meta name="keywords" content="hacking, cyber attacks, security, offensive security, malware, virus, linux ">
+  	 <meta name="author" content="Gabriel Zantua">
+        <title>About</title>
+        <link rel="stylesheet" href= "./css/style.css">
+    </head>
+
+    <body id="aboutbg">
+        <header id="headerbout" class="headerbout" style="border-bottom: none;">
+
+            <section>
+                <div class="dropdown" style="border-bottom: #00ff00 4px solid;background: #082f3b;">
+                    <button onclick="myFunction()" class="dropbtn"></button>
+                    <div id="myDropdown" class="dropdown-content1">
+                        <a href="1index.html" id="ddls">Log In</a>
+                        <a href="logout.html" id="ddls">Log Out</a>
+                        <a href="register.html" id="ddls">Register</a>
+                </div>
+                </div>
+            </section>
+            <script>
+                function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content1");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+} 
+            </script>
+
+            <div class="container">
+                <nav>
+                    <ul>
+                        <li><a href="index.html" style="background:#082f3b;">Home</a></li>
+                        <li class="current"><a href="about.html" style="background:#082f3b;">About</a></li>
+		                <li><a href="activities.html" style="background:#082f3b;">Activities</a></li>
+                        <li><a href="services.html" style="background:#082f3b;">Services</a></li>
+	                	<li><a href="gallery.html" style="background:#082f3b;">Gallery</a></li>
+                        <li><a href="https://github.com/gazzuhax/hyprland"  target="_blank" style="background:#082f3b;">Github</a></li>
+                		<li><a href="profile.html" style="background:#082f3b;">Profile</a></li>
+                    </ul>
+                </nav>
+                <div id="logobout">
+                    <img src="CyberTuxLogo.png">
+                </div>
+                    <div id="bannerbout">
+                        <img src="CyberTuxBanner.png">
+                    </div>
+                    <!-- <div id="bars">
+                        <img src="./svg/bars.svg">
+                    </div> -->
+                <div id="CyberTux">
+                    <h1><span class="highlight" style="position: absolute;">CyberTux</span></h1>
+                </div>
+            </div>
+        </header>
+
+        <section class="main">
+<div id="mid">
+    <h1><font color="#00ff00"><center>About CyberTux</center></font></h1>
+</div>
+        <div class="container">
+            <aside id="sidebar">
+                <div class="dark1">
+                    <h3 style="color: #00ff00;">What to expect?</h3>
+                    <p style="color: white;">Explore in-depth guides, insightful articles, and perhaps a sprinkle of humor as we navigate the ever-evolving
+                    world of Linux distributions, terminal magic, and the vibrant ecosystem of open-source software. Join me in
+                    embracing the penguin spirit and unleashing the potential of your computing experience.</p>
+                </div>
+            </aside>
+
+                <article id="main-col">
+                    <h1 class="page-title"><font color="white" size="4">About the author</font></h1>
+                    <p><font color="white" size="3">As an avid Linux user, I have spent countless hours tinkering with different distributions, reveling in the collaborative spirit of the Linux community. This platform is an
+                extension of that passion, a space to share discoveries, troubleshoot challenges, and connect with like-minded
+                enthusiasts.</font></p>
+             
+		<h1 class="page-title" style="color: #00ff00;">Why Linux?</h1>	
+                    <p class="dark1" style="color: white;">Linux is not just an operating system; it's a philosophy, a way of life. It's about freedom, community, and
+                the endless possibilities that come with an open canvas for innovation. Whether you're a seasoned sysadmin, a
+                curious newcomer, or anyone in between, this space is crafted with you in mind.</p>
+                    <p>
+                </article>
+            </div>
+        </section>
+    <br><br>
+    <center class="questions">
+        <div id="downabout">
+            <h1>Questions</h1>
+            <textarea placeholder="If you have any questions please type it here" style="color: #979797;background:none;border: none;outline:none;width: 350px;text-align: center;"></textarea><br>
+            <a href="aboutntf.html" id="abtntf">Submit</a>
+    <br><br>
+            <p style="font-size:17px;">For more information to help guide you through your</p> 
+                <p>lifetime with Linux, check out the following resources:</p>
+            <p><a href="https://linux.org" id="resources">Linux.org</a></p>
+            <p><a href="https://cybrary.it" id="resources">Cybrary.it</a></p>
+            <p><a href="https://udemy.com" id="resources">Udemy.com</a></p>
+            <p><a href="https://linuxjourney.com" id="resources">LinuxJourney.com</a></p>
+            <p><a href="https://linuxupskillchallenge.com" id="resources">LinuxUpskillChallenge.com</a></p>
+        </div>
+    </center>
+            <br><br><br>
+        <footer>
+            <p><font size="3">CyberTux Security, Copyright &copy; 2024</font></p>
+        </footer>
+    </body>
+</html>

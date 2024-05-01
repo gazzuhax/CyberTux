@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="description" content="Mitigate Cyber Attacks">
+	  <meta name="keywords" content="hacking, cyber attacks, security, offensive security, malware, virus, linux ">
+  	 <meta name="author" content="Gabriel Zantua">
+        <title>Servcies</title>
+        <link rel="stylesheet" href= "./css/style.css">
+    </head>
+
+    <body id="bgservice">
+        <header id="headerserv">
+
+            <section>
+                <div class="dropdown" style="border-bottom: #483d8b 4px solid;background: #1b1b25;">
+                    <button onclick="myFunction()" class="dropbtn"></button>
+                    <div id="myDropdown" class="dropdown-content2">
+                        <a href="1index.html" id="ddl2">Log In</a>
+                        <a href="logout.html" id="ddl2">Log Out</a>
+                        <a href="register.html" id="ddl2">Register</a>
+                </div>
+                </div>
+            </section>
+            <script>
+                function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content2");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+} 
+            </script>
+
+            <div class="container">
+                <nav>
+                    <ul>
+                        <li><a href="index.html" style="background:#1b1b25;border-color: #483d8b;">Home</a></li>
+                        <li><a href="about.html" style="background:#1b1b25;border-color: #483d8b;">About</a></li>
+		                <li><a href="activities.html" style="background:#1b1b25;border-color: #483d8b;">Activities</a></li>
+                        <li class="current1"><a href="services.html" style="background:#1b1b25;border-color: #483d8b;">Services</a></li>
+	                	<li><a href="gallery.html" style="background:#1b1b25;border-color: #483d8b;">Gallery</a></li>
+                        <li><a href="https://github.com/gazzuhax/hyprland"  target="_blank" style="background:#1b1b25;border-color: #483d8b;">Github</a></li>
+                		<li><a href="profile.html" style="background:#1b1b25;border-color: #483d8b;">Profile</a></li>
+                    </ul>
+                </nav>
+                <div id="logo">
+                    <img src="CyberTuxLogo.png">
+                </div>
+                    <div id="banner">
+                        <img src="CyberTuxBanner.png">
+                    </div> 
+                    <!-- <div id="bars">
+                        <img src="./svg/bars.svg">
+                    </div> -->
+                <div id="CyberTux">
+                    <h1><span class="highlight">CyberTux</span></h1>
+                </div>
+            </div>
+        </header>
+        
+
+        <section id="main1">
+            <div id="container">
+                <article id="main-chu">
+	<center>
+                    <h1 class="page-title" id="page-title"><font color="white">Services</font></h1>
+                    <ul id="services">
+                        
+                        <li>
+                            <h3 style="color: white;">Linux Ricing</h3>
+                            <p style="color: white;">If you're looking for a custom Linux OS, Specifically tailored according to your needs and work, then you can hire me. 
+		I can create a fully customized Linux OS with any Window Manager or Desktop Environment and everything else you want in it. 
+		I've already done that for a few people, who are completely satisfied with my work. If you're interested, feel free to contact me.</p>
+                        </li>
+                        
+                        <li>
+                            <h3 style="color: white;">OS Installation</h3>
+                            <p style="color: white;">Looking to streamline your operating system installation process? At CyberTux, we specialize in hassle-free 
+                                operating system installations for both personal and business needs. With my service, Ww ensure smooth transitions and optimal performance, whether 
+                                you're upgrading your current system or setting up a new one. Trust CyberTux to handle your operating system installation with efficiency, leaving 
+                                you with a fully functional and secure computing environment. Let us take care of the technicalities, so you can focus on what you do best.</p>
+                        </li>
+
+                        <li>
+                            <h3 style="color: white;">Malware Analysis and Removal</h3>
+                            <p style="color: white;">
+                                At CyberTux, our malware analysis service provides a thorough yet approachable examination of suspicious files or activities on your system. 
+                                We utilize a combination of automated tools and manual inspection techniques to quickly identify and classify potential threats without overwhelming 
+                                technical jargon. Once identified, we swiftly proceed with targeted removal procedures, ensuring your system is clean and secure. With our user-friendly 
+                                approach to malware analysis, you can trust us to efficiently address any security concerns and keep your digital environment safe from harm.</p>
+                        </li>
+                    </ul>
+                </center>
+                </article>
+
+                <aside id="sidebar1">
+                    <div class="dark">
+                        <center><h3 style="margin: 0 0 15px 0;"><font color="white">Get Our Services Now!!</font></h3></center>
+                        <form class="inputs">
+                            <div>
+                                <label style="color:white; text-align: center; padding: 5px;">Name</label><br>
+                                <input type="text" placeholder="Name" style="border-radius:3px; border:none;outline:none;text-decoration-line:none;padding:5px;">
+                            </div>
+                            <div>
+                                <label style="color:white;">Email</label><br>
+                                <input type="email" placeholder="Email Address" style="border-radius:3px; border:none;outline:none;text-decoration-line:none;padding:5px;">
+                            </div>
+                            <div>
+                                <label style="color:white;">Message</label><br>
+                                <textarea placeholder="Message" style="border-radius:3px; border:none;outline:none;text-decoration-line:none;padding:0 7px 0 7px;"></textarea>
+                            </div>
+                            <button class="button_1" id="send" style="margin: 5px 0 5px 100px; color: white; background-color: darkslateblue; font-size: 15px; font-weight: 600; font-family: sans-serif">Send</button>
+					</form>
+                    </div>
+                </aside>
+            </div>
+        </section>
+       
+<br><br><br><br><br><br><br><br><br><br><br><br>
+        <footer>
+            <p><font size="3">CyberTux Security, Copyright &copy; 2024</font></p>
+        </footer>
+    </body>
+</html>
